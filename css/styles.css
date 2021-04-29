@@ -1,0 +1,78 @@
+/* основной цвет текста #212121 темнее */
+/* вторичный цвет текста #757575 светлее */
+/* синий #2196F3 */
+body {
+  color: #212121;
+}
+.hidden {
+  display: none;
+}
+
+/* Шапка */
+.navigation-logo {
+  color: #000000;
+}
+.accent {
+  color: #2196f3;
+}
+.navigation-link {
+  color: #212121;
+}
+.navigation-address {
+  color: #757575;
+}
+.navigation-link:hover,
+.navigation-address:hover,
+.navigation-link:focus,
+.navigation-address:focus {
+  color: #2196f3;
+}
+
+/* Герой */
+.hero {
+  background-color: #212121;
+}
+h1 {
+  color: #ffffff;
+}
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* Преимущества */
+.description {
+  color: #757575;
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+/* Футер */
+.contact {
+  background-color: #212121;
+}
+.contact-logo {
+  color: #ffffff;
+}
+.contact-address {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-address:hover,
+.contact-address:focus {
+  color: rgba(33, 150, 243, 0.6);
+}
+
+/* ПОРТФОЛИО */
+
+/* Фильтры */
+.filter-button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
