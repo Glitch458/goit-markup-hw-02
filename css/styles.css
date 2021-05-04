@@ -9,6 +9,7 @@
   --logo: #000000;
   --alt-bg: #2f303a;
   --filter-bg: #f5f4fa;
+  --button-bg-active: #188ce8;
 }
 
 /* Глобальные */
@@ -110,6 +111,9 @@ body {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+}
+.button:active {
+  background-color: var(--button-bg-active);
 }
 
 /* Преимущества */
